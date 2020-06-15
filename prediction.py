@@ -29,7 +29,7 @@ def detect(frame):
     except AttributeError:
         print('Shape not found')
 
-#frame=cv2.imread(r"D:\AAA\COURSES\AI\PROJECT\malignant_test_image.jpg")
+#sample paths of fake and real faces
 
 frame=cv2.imread(r"testset\fake\easy_31_0011.jpg")
 data=detect(frame)
